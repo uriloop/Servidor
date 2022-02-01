@@ -6,11 +6,11 @@ import java.nio.charset.StandardCharsets;
 public class WordOmatic {
 
 
-    private String[] paraules={"hola","adeu","escalada","musica","onomatopeia"};
+    private String[] paraules={"hola","adeu","escalada","musica","onomatopeia","caca","blabla"};
 
     public byte[] getParaula() {
 
-        int v = (int)((Math.random() * paraules.length)-1);
+        int v = (int)((Math.random() * paraules.length));
         byte[] paraula= paraules[v].getBytes(StandardCharsets.UTF_8);
 
         return paraula;

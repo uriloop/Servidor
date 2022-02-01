@@ -13,8 +13,7 @@ public class Monit {
     }
 
     public void add(String paraula) {
-        /*if (!paraules.containsKey(paraula))paraules.put(paraula,1);
-        else paraules.put(,paraules.get(paraula)+1);*/
+
         if (paraules.containsKey(paraula)) paraules.put(paraula,paraules.get(paraula)+1);
         else paraules.put(paraula,1);
     }
